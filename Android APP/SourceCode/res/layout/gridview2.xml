@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tab1"
+    >
+    <TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+        <Spinner
+            android:id="@+id/spinDept1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_span="3"
+            android:entries="@array/depts"
+            android:prompt="@string/prompt"
+            android:visibility="gone" />
+
+    <TableRow>
+    />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_width="70px"
+            android:layout_height="30px"
+            android:layout_weight="5"
+            android:text="@string/fullname" 
+             android:textColor="#000"
+        android:background="#d2d2d2"
+         android:paddingTop="5px"/>
+
+    <TextView
+        android:layout_width="50px"
+        android:layout_height="30px"
+        android:layout_weight="4"
+        android:text="@string/birthday"
+         android:textColor="#000"
+        android:background="#d2d2d2"
+         android:paddingTop="5px" />
+
+    <TextView
+        android:layout_width="50px"
+        android:layout_height="30px"
+        android:layout_weight="3"
+        android:text="@string/sex" 
+         android:textColor="#000"
+        android:background="#d2d2d2"
+         android:paddingTop="5px"/>
+    
+    </TableRow>
+    </TableLayout>
+    <GridView
+    android:id="@+id/grid"
+    android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:numColumns="1"
+	android:stretchMode="columnWidth"
+    />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/homescreen" />
+
+    </LinearLayout>

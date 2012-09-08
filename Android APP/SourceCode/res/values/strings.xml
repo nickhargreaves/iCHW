@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, DatabaseTestActivity!</string>
+    <string name="app_name">CHW Survey App</string>
+
+    <string name="loginbutton">Login</string>
+    <string name="username">Enter username</string>
+    <string name="password">Enter password</string>
+    <string name="selectvillage">Select Village to Begin</string>
+    <string name="pending">Pending Exports</string>
+    <string name="pendingnotification">You currently have no households pending export to database</string>
+    <string name="pendingnotification2">You currently have no households pending export to database in the selected Village</string>
+    <string name="update">View and Update Household</string>
+    <string name="addhousehold">Add New Household</string>
+    <string name="changevillage">Change Village</string>
+    <string name="enterlogindetails">Enter Login Details</string>
+    <string name="addtitle">Add household member</string>
+    <string name="fullname">Full Name</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="submit">Submit</string>
+    <string name="birthday">Birthday</string>
+    <string name="chooseaction">Choose Action</string>
+    <string name="selectvillage2">Select Village to Begin</string>
+    <string name="categoriestitle">Question Categories</string>
+    <string name="personname">Person\'s name</string>
+    <string name="generalinfo">General Information</string>
+    <string name="under5">Under 5 Information</string>
+    <string name="maternal">Maternal Information</string>
+    <string name="over16">Over 16 Information</string>
+    <string name="additionalinfo">Additional Information</string>
+    <string name="done">Done</string>
+    <string name="setbd">Set Birthday</string>
+    <string name="editgeneral">Edit General Information</string>
+    <string name="birthcert">Birth Certificate</string>
+    <string name="bednet">Bednet</string>
+    <string name="knowhivstatus">Know HIV status</string>
+    <string name="chronicillnes">Chronic illness/cough for 2+ weeks</string>
+    <string name="disability">Disability</string>
+    <string name="prompt">Choose one below</string>
+    <string-array name="relationshiptohead">
+        <item >Spouse</item>
+        <item >Child by Birth</item>
+        <item >Child by Registration</item>
+        <item >Other</item>
+    </string-array>
+       <string-array name="anc2">
+        <item >1</item>
+        <item >2</item>
+        <item >3</item>
+        <item >4</item>
+        <item >Other</item>
+    </string-array>
+       <string-array name="relationshiptohead2">
+       <item >Head of Household</item>
+        <item >Spouse</item>
+        <item >Child by Birth</item>
+        <item >Child by Registration</item>
+        <item >Other</item>
+    </string-array>
+    <string-array name="howoften">
+       <item >Always</item>
+        <item >Very often</item>
+        <item >Not often</item>
+        <item >Once a while</item>
+      </string-array>
+    <string-array name="depts">
+        <item >Sales</item>
+        <item >IT</item>
+        <item >HR</item>
+       
+    </string-array>
+        <string name="relationship">Relationship to Head of Household</string>
+        <string name="editunder5">Edit under 5 information</string>
+        <string name="penta1">Penta 1</string>
+        <string name="cliniccard">Clinic Card</string>
+        <string name="penta3">Penta 3</string>
+        <string name="mealses">Measles Vaccination</string>
+        <string name="fullyimmunized">Fully Immunized</string>
+        <string name="vitamina">Vitamin A</string>
+        <string name="orphan">Orphan or Vulnerable Child</string>
+        <string name="ovc">Has Access to OVC programs</string>
+        <string name="editover16">Edit Over 16</string>
+        <string name="enterphone">Enter Phone Number</string>
+        <string name="under16">Under 16 Information</string>
+        <string name="editunder16">Edit Under 16 Information</string>
+        <string name="editadditional">Edit Additional Information</string>
+        <string name="remarks">Remarks</string>
+        <string name="flagged">Flagged</string>
+        <string name="reasonforflag">Reason Why Flagged</string>
+        <string name="editmaternalinformation">Edit Maternal Information</string>
+        <string name="currentlypregnant">Are You Currentlly Pregnant?</string>
+        <string name="selectlastperiod">Select date of last period</string>
+        <string name="givenbirth">Have you given birth in the last 12 months(include pregnancies that ended in miscarriage)?</string>
+        <string name="outcomeofpregnancy">What was the outcome of the pregnancy?</string>
+        <string name="ifbabydiedwhen">When did baby die?</string>
+        <string name="anc">How many times did the mother attend antenatal clinic(ANC)?</string>
+        <string name="where">Where did the mother deliver?</string>
+        <string-array name="malnutrition">
+            <item >Not malnourished -> 12.5cm</item>
+            <item >Moderately malnourished -> 12.5cm</item>
+            <item >Severely malnourished -> 12.5cm</item>
+        </string-array>
+            <string name="babydied">The baby died</string>
+            <string-array name="pregnancyoutcome">
+            <item >Baby Survived</item>
+            <item >Miscarriage</item>
+            <item >Baby Died</item>
+                
+                </string-array>
+ <string-array name="wheredeliver">
+                <item >At Home</item>
+                <item >At Health Facility</item>
+                <item >Other</item>
+                </string-array>
+                <string name="lastperiod">When was your last period?</string>
+                <string name="currentperson">Current Person: </string>
+                <string name="outof">x out of y</string>
+                <string name="donequestions">Done! Enter Household Information</string>
+                <string name="ifbabydied">When did the baby die?</string>
+                 <string-array name="babydied">
+                <item >Before Delivery</item>
+                <item >During Delivery</item>
+                <item >Within two weeks after delivery</item>
+                <item >After two weeks</item>
+                </string-array>
+                <string-array name="method">
+                <item >Boil</item>
+                <item >Add chlorine or lime</item>
+                <item >Strain through cloth</item>
+                <item >Pur or other water treatment</item>
+                <item >Water doesnt require treatment</item>
+                </string-array>
+                <string name="edithouse">Edit Household Information</string>
+                <string name="coordinates">Coordinates: </string>
+                <string name="autocoordinates">0,0</string>
+                <string name="headofhouse">Head of Household</string>
+                <string name="haslatrine">Has latrine in use</string>
+                <string name="treatswater">Regularly treats drinking water</string>
+                <string name="handwashing">Has a handwashing facility</string>
+                <string name="staplefood">Has staple food</string>
+                <string name="iec">IEC health materials are displayed</string>
+                <string name="deaths">Record deaths in the last 12 months</string>
+                <string name="dob">Select Date of Birth</string>
+                <string name="dod">Select Date of Death</string>
+                <string name="outofv"> out of </string>
+                <string name="questionnare">Individual Questionnare</string>
+                <string name="next">Next</string>
+                <string name="done2">Done! Enter Next Person</string>
+                <string name="pendingbutton">Pending Export</string>
+                <string name="village">Village</string>
+                <string name="headofhouse2">Head</string>
+                <string name="houseno">H.No.</string>
+                <string name="managepending">Manage Pending Exports</string>
+                <string name="viewmembers">View Household Members</string>
+                <string name="recorddeath">Record Death</string>
+                <string name="delete">Delete House and Members</string>
+                <string name="managehouse">Manage Household</string>
+                <string name="sex">Sex</string>
+                <string name="homescreen">&lt; - HomeScreen</string>
+                <string name="waitlocation">Getting location data...</string>
+                <string name="updategps">Update Coordinates</string>
+                <string name="empty">" "</string>
+                <string name="updateindoptions">Update Individual Options</string>
+                <string name="editindividual">Edit record</string>
+                <string name="markasdead">Mark as dead</string>
+                <string name="dateofdeath">Date of Death</string>
+                <string name="deleteind">Delete Individual</string>
+                <string name="addindividual">Add Individual</string>
+                <string name="upload">Upload Pending Exports</string>
+                <string name="penta1date">Update Penta 1 Date</string>
+                <string name="penta3date">Update Penta 3 Date</string>
+                <string name="measlesdate">Update Measles Vaccination Date</string>
+                <string name="exportdata">Export Data</string>
+                <string name="backup">Backup Data</string>
+                <string name="convertocsv">Convert to CSV</string>
+                <string name="howoften">How often does this person sleep under a net for the entire night?</string>
+                <string name="checkdeworming">Deworming tablet</string>
+                <string name="duedate">Due date:</string>
+                <string name="updatevitamindate">Update Vitamin A Date</string>
+                <string name="updatedewormingdate">Update Deworming Date</string>
+                <string-array name="villages">
+                <item>Alara</item>
+				<item>Ywaya</item>
+				<item>Ulare</item>
+				<item>Fundula</item>
+				<item>Kondiek</item>
+				<item>Ligose</item> 
+				<item>Mukwiro</item>
+				<item>Ogero</item> 
+				<item>Oriang</item> 
+				<item>Umlunda</item> 
+				<item>Murumba</item> 
+				<item>Sega Town Central</item>
+				<item>Sega Town East</item>
+				<item>Sega Town Northeast</item> 
+				<item>Ugambe</item> 
+				<item>Odende</item> 
+				<item>Serowa</item>
+</string-array> 
+				<string name="viewmap">Online Map</string> 
+				<string name="help">Help</string> 
+				<string name="sync">SyncDB</string> 
+				<string name="tutorial">App tutorial</string>
+</resources>

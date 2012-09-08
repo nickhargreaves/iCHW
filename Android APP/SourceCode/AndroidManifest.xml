@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.databasetest.sample"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"></uses-permission>
+    <application
+        android:icon="@drawable/survey_smooth"
+        android:label="@string/app_name" >
+        <activity
+            android:label="@string/app_name"
+            android:name=".DatabaseTestActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="Home"></activity>
+        <activity android:name="VillageList" android:label="Select village"></activity>
+        <activity android:name="Action1" android:label="Choose Action"></activity>
+        <activity android:name="AddHoushold" android:label="Add Household Member"></activity>
+        <activity android:name="Questioncategories"></activity>
+        <activity android:name="GeneralInformation"></activity>
+        <activity android:name="under5"></activity>
+        <activity android:name="Questionnare" android:label="Individual Questionnare"></activity>
+        <activity android:name="householdinfo" android:label="Edit household information"></activity>
+        <activity android:name="death" android:label="Record deaths in the last 12 months"></activity>
+        <activity android:name="Tabs" android:label="Households"></activity>
+        <activity android:name="GridList" android:label="Employees"></activity>
+        <activity android:name="Other" android:label="Manage household"></activity>
+        <activity android:name="editHouse" android:label="Edit houshold information"></activity>
+        <activity android:name="Tabs2" android:label="Individuals"></activity>
+        <activity android:name="GridList2"></activity>
+        <activity android:name="Death2" android:label="Record deaths in the last 12 months"></activity>
+        <activity android:name="Editindividual" android:label="Update individual options"></activity>
+        <activity android:name="AddIndividual" android:label="Add household member"></activity>
+        <activity android:name="ProcessAdded" android:label="Edit individual questionnare"></activity>
+        <activity android:name="Testing"></activity>
+        <activity android:name="EditIndRecord" android:label="Edit individual basic information"></activity>
+    
+        <activity android:name="EditCategories" android:label="Edit individual questionnare"></activity>
+        <activity android:name="Uploader"></activity>
+        <activity android:name="Selectvillageupdate" android:label="Select village"></activity>
+        <activity android:name="Viewupdateweb" android:label="Tutorial"></activity>
+    </application>
+
+</manifest>
