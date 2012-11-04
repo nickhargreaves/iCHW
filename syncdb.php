@@ -10,7 +10,7 @@ echo "Online data has been updated!";
 echo "There was an error updating data, please try again!";
 }
 //mysql database connection information
-$conn = mysql_connect("sql.segasiliconvalley.org", "admin11240", "SegA3829#*");
+$conn = mysql_connect("localhost", "user", "pass");
 mysql_select_db("baza11240", $conn);
 
 //connect to sqlite3 database
