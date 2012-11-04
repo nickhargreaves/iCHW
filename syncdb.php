@@ -11,7 +11,7 @@ echo "There was an error updating data, please try again!";
 }
 //mysql database connection information
 $conn = mysql_connect("localhost", "user", "pass");
-mysql_select_db("baza11240", $conn);
+mysql_select_db("databasename", $conn);
 
 //connect to sqlite3 database
 $filename = basename( $_FILES['uploadedfile']['name']);
